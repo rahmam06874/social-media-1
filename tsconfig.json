@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "es2022",
+    "types": ["node"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    /* Other Outputs */
+    "sourceMap": false,
+    "declaration": false,
+    "declarationMap": false,
+
+    /* Recommended Options */
+    "strict": true,
+    "verbatimModuleSyntax": false,
+    "isolatedModules": false
+  }
+}
